@@ -1,4 +1,7 @@
 /***
+#          Download VS Code extensions as VSIX
+***/
+/***
 // https://gist.github.com/wanglf/7acc591890dc0d8ceff1e7ec9af32a55
 ***/
 
@@ -102,5 +105,4 @@
     let url = URL_VSIX_PATTERN.replace('${publisher}', publisher).replace('${extension}', extension).replace('${version}', version);
     window.open(url, '_blank');
 
-}
-)();
+})();
